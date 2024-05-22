@@ -1,0 +1,397 @@
+/* Global */
+body{
+    background-color: #f5f5f5;
+}
+h1,h2,h3,h4,h5,h6,p {
+    color:black;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif
+}
+
+
+/* FONT */
+html {
+    font-size: 16px; /* Ensures rem units are based on this size */
+  }
+  
+  h1 {
+    font-size: 1.5rem; /* 24px */
+  }
+  
+  h2 {
+    font-size: 1.25rem; /* 20px */
+  }
+  
+  h3 {
+    font-size: 1rem; /* 16px */
+  }
+  
+  h4 {
+    font-size: 1.125rem; /* 16px */
+  }
+  
+  h5 {
+    font-size: 1rem; /* 16px */
+  }
+  
+  h6 {
+    font-size: 1rem; /* 16px */
+  }
+  
+  p {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5; /* 24px line height for better readability */
+    margin-bottom: 1rem; /* Space between paragraphs */
+  }
+  
+  #right-section{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+  }
+  #left-section{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+  }
+
+  .top-area-left{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+  }
+
+
+
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light, h3, p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular, html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium, h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold, h1, h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /* STYLE*/
+ 
+   /* LEFT SECTION*/
+
+  #left-section img{
+    width:7.5rem;
+    border-radius: 100%;
+  }
+
+  .about-me{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+  }
+  .fun-facts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width:100%;
+  }
+
+
+  .fun-facts p {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+    margin: 0rem;
+    line-height: 1.5rem;
+  }
+
+     /* RIGHT SECTION*/
+
+
+  .bento-box{
+    background-color: #fff;
+    padding:2rem;
+    border: solid 1px #eee;
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.bento-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+/*SQUARE BOX*/
+.square-box{
+    border: solid 1px #eee;
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square-box:hover{
+    background-color: #eee;
+}
+
+.square-box img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.tooltip {
+    display:none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    position:relative;
+    z-index: 1;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.square-box:hover .tooltip {
+    display:flex;
+    flex-direction: column;
+    opacity: 1;
+}
+/*CONTACT BENTO*/
+
+#contact-bento .bento-content {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+/*TECK STACK BENTO*/
+
+#tech-stack-bento .bento-content {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+/*PROJECT BENTO*/
+
+/*Projects*/
+
+.projects{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:2rem;
+}
+
+
+.project{
+    border: solid 1px #eee;
+    border-radius:0.5rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.project:hover{
+    background-color: #eee;
+}
+
+.project h1, .project h2, .project h3, .project h4, .project h5, .project h6, .project p{
+    margin: 0rem;
+}
+.title-and-logo{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center
+}
+
+.title-and-logo img {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+
+
+
+
+/*  RESPONSIVENESS*/
+
+@media screen and (min-width: 1080px){
+        body {
+             margin: 0;
+             display: flex;
+             height: 100vh;
+             overflow: hidden; /* Prevents the body from scrolling */
+            }
+        #left-section{
+             padding: 2rem 1rem 2rem 2rem;
+
+            }
+        #right-section{
+            padding: 2rem 2rem 2rem 1rem;
+            }
+    
+    /*section{
+        margin:32px;
+    }*/
+    
+    #left-section {
+        position: fixed;
+        height: 100%;
+        width:17.5rem;
+    }
+    
+    #right-section {
+        margin-left:20rem;
+        flex: 1;
+        overflow-y: auto; /* Enables vertical scrolling */
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .fun-facts{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #left-section{
+        padding: 2rem 2rem 1rem 2rem;
+       }
+   #right-section{
+       padding: 1rem 2rem 2rem 2rem;
+       }
+    .divider{
+        background-color: #d5d5d5;
+        height: calc(1rem/16);
+        width:100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+
+    /* BENTO CONTENT*/
+    .bento-content{
+        align-items: center;
+        justify-content: center;
+    }
+    .projects{
+        display:grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap:2rem;
+    }
+   
+    
+}
+
+
+
+
+
+
