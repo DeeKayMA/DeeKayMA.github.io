@@ -12,26 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-	<script>
-	function calculateAge(birthYear, birthMonth) {
-            const today = new Date();
-            const currentYear = today.getFullYear();
-            const currentMonth = today.getMonth() + 1; // JavaScript months are 0-11
-
-            let age = currentYear - birthYear;
-            if (currentMonth < birthMonth) {
-                age--;
-            }
-            return age;
-        }
-
-        document.addEventListener("DOMContentLoaded", function() {
-            const birthYear = 1996; 
-            const birthMonth = 8;
-            const age = calculateAge(birthYear, birthMonth);
-            document.getElementById("age").innerHTML = age;
-        });
-	</script>
+	<script src="script.js"></script>
     <!--LEFT SECTION--------------------------------------->
     <section id="left-section">
         <div class="top-area-left">
@@ -48,7 +29,7 @@
                 <p class="poppins-light-italic">"Last week I discovered that I'm an Indie Hacker"</p>
                 <p>💼 Corpo ⟶ Indie Hacker</p>
                 <p>📍 UK ⟶ Everywhere</p>
-                <p>🎈 <span id="age></span> ⟶ Infinity</p>
+                <p>🎈 27 ⟶ Infinity</p>
                 <p>💸 £0 ⟶ £10k MRR</p>
             </div>
             <div class="divider"></div>
